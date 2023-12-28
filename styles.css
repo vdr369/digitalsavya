@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+}
+body {
+    margin: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #48b6a7;
+    color: #fff;
+    padding: 10px 0;
+    padding-bottom: 10px;
+}
+
+nav h1 {
+    margin: 20;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Add this to your existing CSS file */
+
+nav h1 img {
+    max-height: 100px; /* Adjust the max height as needed */
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust the margin as needed */
+    background-color: #333;
+    border-radius: 3px;
+    border-color: #f0f0f0;
+}
+
+
+.banner {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+}
+
+.banner h2 {
+    font-size: 2em;
+    margin-bottom: auto;
+}
+
+.banner p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+}
+/* Add these styles to your existing CSS file */
+
+.banner-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-column {
+    flex: 2; /* Make the middle column twice as wide as the others */
+    /* Add additional styles for the slideshow container */
+}
+
+/* Adjust styles as needed for your design */
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #48b6a7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.quick-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* home styles: */
+/* Add this to your existing CSS file */
+
+.hero {
+    background-image: url('images/digital\ 2.jpeg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Adjust text color based on your image */
+    text-align: center;
+    padding: 100px 0; /* Adjust padding as needed */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Adjust styles as needed */
+
+/*styles for the coloumns for the banner in home page */ 
+
+.column-home {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.main-column-home {
+    flex: 2; /* Make the middle column twice as wide as the others */
+    /* Add additional styles for the slideshow container */
+    background-color: #48b6a7;
+    border-radius: 10px;
+}
+
+/*contact form CSS*/
+/* Add this to your existing CSS file or create a new one */
+
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
